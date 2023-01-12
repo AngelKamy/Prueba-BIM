@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/mystyle.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="/assets/log/Logo BIM.jpg" alt="logo-BIM">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/html/login.html">Inciar sesión</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="/html/signup.html">Registrate</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="/html/myprofile.html"><img class="profico" src="/assets/ico/usuario.png"
+                                alt="profile"></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="profile">
+                <h1>Mi perfil</h1>
+
+                <div class="data">
+                    <div class="user-data">
+                        <h4>Mis datos</h4>
+                    </div>
+                    <p>Usuario: <span class="user-name"></span></p>
+                    <div class="indata" action="">
+                        <label for="Estado">Estado</label>
+                        <input type="text" name="estado" id="Estado">
+
+                        <label for="Municipio">Alcaldía o Municipio</label>
+                        <input type="text" name="Municipio" id="Municipio">
+
+                        <label for="CP">Código Postal</label>
+                        <input type="text" minlength="5" maxlength="5" inputmode="numeric" id="CP">
+                    </div>
+
+                    <div>
+                        <button>
+                            Guardar cambios
+                        </button>
+
+                    </div>
+                </div>
+
+
+            </section>
+        </main>
+
+    </body>
+
+</html>
