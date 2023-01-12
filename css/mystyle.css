@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+:root {
+    --principal-color: #035959;
+    --secondary-color: #03A696;
+    --grass-green: #03A63C;
+    --my-gray: #F2F2F2;
+    --black: #000000;
+    --white: #ffffff;
+    --sm: 15px;
+}
+
+body {
+    background-color: var(--white);
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+
+header {
+    color: var(--my-gray);
+    width: 100%;
+    font-weight: 800;
+    background-color: var(--principal-color);
+    margin-bottom: 50px;
+    padding: 24px 0;
+    display: flex;
+}
+
+header ul {
+    align-items: center;
+    padding-right: 25px;
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 0;
+}
+
+header ul li {
+    margin: 5px;
+}
+
+header ul li a {
+    color: var(--my-gray);
+    text-decoration: none;
+}
+
+
+.logo {
+    margin-left: 15px;
+    size: 50%;
+}
+
+.logo>img {
+    width: 200px;
+}
+
+.profico {
+    height: 24px;
+    width: 24px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: var(--principal-color);
+}
+
+form {
+    text-align: center;
+    border: 2px solid var(--secondary-color);
+    border-radius: 20px;
+    width: 350px;
+}
+
+.inputs>input {
+    margin: 8px auto;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px;
+}
+
+form input::placeholder {
+    color: var(--principal-color);
+}
+
+.terminos {
+    display: flex;
+    margin: 25px 50px 5px;
+    font-size: var(--sm);
+    color: var(--principal-color);
+    font-weight: 500;
+}
+
+.terminos a:link {
+    color: var(--principal-color);
+    font-weight: bold;
+}
+
+
+button {
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #03A63C;
+    color: var(--white);
+    font-weight: bolder;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/* Responsive design */
+@media (max-width: 500px) {
+
+    /*   .logo {
+        display: none;
+    } */
+
+    header {
+        color: var(--my-gray);
+        width: auto;
+        height: 100px;
+        font-weight: 800;
+        background-color: var(--principal-color);
+        margin-bottom: 50px;
+        padding: 24px 0;
+        display: flex;
+    }
+
+    form {
+        width: auto;
+    }
+
+    form .inputs {
+        margin: 8px 25px;
+    }
+
+    header ul {
+        align-items: center;
+        padding-right: 25px;
+        display: flex;
+        list-style: none;
+        display: block;
+        font-size: small;
+        margin-top: 0;
+        text-decoration: underline;
+
+    }
+
+    header ul li:last-child {
+        padding: auto;
+    }
+
+    header ul span {
+        display: none;
+    }
+
+}
