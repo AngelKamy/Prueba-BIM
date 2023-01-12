@@ -70,6 +70,9 @@ h3, h1 {
 h1{
     font-size: large;
 }
+h4{
+    text-align: center;
+}
 
 form {
     margin-top: 50px;
@@ -159,6 +162,7 @@ button:hover {
 
 .data p{
     margin: 10px;
+   
 }
 .data div{
     display: flex;
