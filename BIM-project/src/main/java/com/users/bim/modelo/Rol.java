@@ -40,4 +40,11 @@ public class Rol {
 		super();
 	}
 
+	public Rol(String usuario) {
+		super();
+		this.usuario = usuario;
+	}
+
+
+
 }
